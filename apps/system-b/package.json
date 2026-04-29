@@ -1,0 +1,39 @@
+{
+  "name": "system-b",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p 3002",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@bizflow/ui-components": "workspace:*",
+    "@bizflow/utils": "workspace:*",
+    "@bizflow/feature-auth": "workspace:*",
+    "@bizflow/feature-profile": "workspace:*",
+    "@bizflow/feature-orders": "workspace:*",
+    "@bizflow/feature-inventory": "workspace:*",
+    "@bizflow/feature-payments": "workspace:*",
+    "@bizflow/feature-notifications": "workspace:*",
+    "@bizflow/feature-analytics": "workspace:*",
+    "@bizflow/feature-support": "workspace:*",
+    "@bizflow/feature-admin": "workspace:*",
+    "@bizflow/feature-reporting": "workspace:*",
+    "lucide-react": "^0.400.0",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.4.0"
+  }
+}
