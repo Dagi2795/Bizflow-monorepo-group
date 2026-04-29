@@ -2,6 +2,7 @@
   "name": "@bizflow/feature-auth",
   "version": "1.0.0",
   "private": true,
+  
   "main": "./src/index.tsx",
   "types": "./src/index.tsx",
   "scripts": { "lint": "echo ok", "typecheck": "tsc --noEmit" },
